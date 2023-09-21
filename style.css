@@ -15,11 +15,15 @@ body, .container-father {
     display: grid;
     justify-items: center;
     font-family: 'ADLaM Display', cursive;
-    font-family: 'REM', sans-serif;
-    color: #54dbaf;
+    /* font-family: 'REM', sans-serif; */
+    color: #ff4bc1;
 
 }
 
+img {
+    width: 50px;
+
+}
 
 
 .container-01, .container-02 {
@@ -31,7 +35,7 @@ body, .container-father {
     justify-content: center;
     align-content: center;
     color: white;
-    background: #eaeaea;
+    background: #f2ebfd;
 }
 
 .container-02 {
@@ -41,11 +45,11 @@ body, .container-father {
 [class*="rectangle-"] {
     width: 100px;
     height: 80px;
-    background: #5a35bf;
+    background: #ffa646;
     margin: 5px;
     border-radius: 10px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
